@@ -16,6 +16,7 @@ public class Main {
     }
 
     public static int countWorld(String sentence) {
+        //First
         if (sentence == null || sentence.trim().isEmpty()) {
             return 0;
         }
@@ -24,6 +25,7 @@ public class Main {
     }
 
     public static int countWorld2(String sentence){
+        //Second
         if (sentence == null || sentence.trim().isEmpty()) {
             return 0;
         }
